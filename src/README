@@ -1,0 +1,37 @@
+This is the directory for
+
+MATLAB implementation of reach-grasp coordination
+
+Files contained in this directory:
+
+A) Documentation
+
+ 1) README        - This file
+
+B) Simulation programs
+
+ 1) grasping.m    - Main program
+ 2) circuit.m     - Solves the equations of the system
+ 3) plotOutput.m  - Plots simulation results
+ 4) G.m           - GO signal equations for a specified time
+ 5) pos.m         - Returns positive o zero of a number  
+ 6) der.m         - Estimates derivative
+ 
+C) Input data files
+
+ 1) salingSmall.dat
+ 2) salingLarge.dat
+ 3) salingSmallPerturbed.dat
+ 4) salingLargePerturbed.dat
+ 5) paulignan1Small.dat
+ 6) paulignan1SmallPerturbed.dat
+ 7) paulignan2Small.dat
+ 8) paulignan2Large.dat
+ 9) paulignan2SmallToLarge.dat
+10)paulignan2LargeToSmall.dat
+
+
+Antonio Ulloa
+January 19th, 2002
+
+Last Updated: Tue Jan  7 15:10:08 EST 2003
